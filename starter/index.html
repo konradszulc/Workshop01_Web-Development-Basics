@@ -52,7 +52,27 @@
         
         <!-- TODO Task 4: Add contact form section here -->
         <section id="contact">
-            
+            <!--Will not include method or action since this is for practice and no actual data is sent-->
+            <form>
+                <p>
+                    <label for="name">Name:</label>
+                    <!--no data being sent but common practice that name would then be from text input-->
+                    <!--required attribute makes it unable to submit unless field is filled-->
+                    <input type="text" id="name" name="user_name" required/> 
+                </p>
+                <p>
+                    <label for="mail">Email:</label>
+                    <input type="email"  id="mail" name="user_email" required/> 
+                </p>
+                <p>
+                    <label for="msg">Message:</label>
+                    <textarea id="msg" name="user_message" required></textarea> 
+                </p>
+                <p>
+                    <button type="submit">Submit</button>
+                </p>
+                
+            </form>
         </section>
     </main>
     
