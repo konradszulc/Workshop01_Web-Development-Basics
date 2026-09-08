@@ -65,11 +65,14 @@ img {
 
 /* TODO Task 3: Navigation Styles */
 nav {
+    background-color: var(--lightGray);
     
 }
 
 nav ul {
     /* Remove bullets and style the list */
+    list-style-type: none;
+    text-align: center;
 }
 
 nav li {
