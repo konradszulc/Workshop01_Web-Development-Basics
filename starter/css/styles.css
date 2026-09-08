@@ -17,7 +17,7 @@
 
 body {
     /* Add body styles:  font-family, background-color, color, etc. */
-    background-color: var(--lightGray);
+    background-color: var(--darkGray);
     /*Web safe font*/
     font-family: Verdana, sans-serif;
     /*Common use Margin*/
@@ -39,8 +39,15 @@ h2 {
 }
 
 /* TODO Task 2: Style your paragraphs */
+/* added additional elements for nicer look*/
 p {
-    
+    background-color: var(--lightGray);
+    padding:10px;
+    text-align:center;
+    margin: auto;
+    line-height: 20px;
+    color: var(--blue);
+    max-width: 860px;
 }
 
 /* TODO Task 2: Style your images */
