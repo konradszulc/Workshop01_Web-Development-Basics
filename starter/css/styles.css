@@ -39,7 +39,7 @@ h2 {
 }
 
 /* TODO Task 2: Style your paragraphs */
-/* added additional elements for nicer look*/
+/* added additional styles for nicer look*/
 p {
     background-color: var(--lightGray);
     padding:10px;
@@ -51,8 +51,16 @@ p {
 }
 
 /* TODO Task 2: Style your images */
+/*added addtional styles for images for nicer look*/
 img {
-    
+    /*margin and display used to center img*/
+    margin: 50px auto;
+    display: block;
+    border: 5px;
+    border-style: solid;
+    border-color: black;
+    border-radius: 25px 25px;
+    max-width: 500px;
 }
 
 /* TODO Task 3: Navigation Styles */
