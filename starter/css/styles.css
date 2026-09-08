@@ -17,8 +17,12 @@
 
 body {
     /* Add body styles:  font-family, background-color, color, etc. */
-    background-color
-
+    background-color: var(--lightGray);
+    /*Web safe font*/
+    font-family: Verdana, sans-serif;
+    /*Common use Margin*/
+    margin: 0 auto;
+    padding: 15px;
 }
 
 /* TODO Task 2: Style your headings */
