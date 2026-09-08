@@ -3,7 +3,12 @@
    ================================= */
 
 /* TODO Task 2: Add your general styles here */
-
+/*adding 3-theme color variables for quick use*/
+:root {
+    --lightGray: #D3D3D3;
+    --darkGray: #A9A9A9;
+    --blue: #3366FF; 
+}
 /* Reset and Base Styles */
 * {
     /* Add your reset styles here (margin, padding, box-sizing) */
@@ -12,6 +17,7 @@
 
 body {
     /* Add body styles:  font-family, background-color, color, etc. */
+    background-color
 
 }
 
