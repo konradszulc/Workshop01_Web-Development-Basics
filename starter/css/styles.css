@@ -20,7 +20,7 @@
 
 body {
     /* Add body styles:  font-family, background-color, color, etc. */
-    background-color: var(--darkGray);
+    background: linear-gradient(120deg, var(--lightGray) 0%, var(--darkGray) 100%);
     /*Web safe font*/
     font-family: Verdana, sans-serif;
     /*Common use Margin*/
@@ -34,19 +34,36 @@ h1 {
     color: var(--blue);
     font-size:36px;
     text-align: center;
+    padding: 15px;
 }
 
 h2 {
     color: var(--blue);
     font-size:24px;
     text-align: center;
+    padding:15px;
 }
+
+/*Added additional headers for content in each section*/
+h3 {
+    color: var(--blue);
+    font-size:24px;
+    text-align: center;
+    padding:15px;
+}
+
+h4 {
+    color: var(--blue);
+    font-size:24px;
+    text-align: center;
+    padding:15px;
+}
+
 
 /* TODO Task 2: Style your paragraphs */
 /* added additional styles for nicer look*/
 p {
-    background-color: var(--lightGray);
-    padding:10px;
+    padding:15px;
     text-align:center;
     margin: auto;
     line-height: 20px;
@@ -62,7 +79,7 @@ img {
     display: block;
     border: 5px;
     border-style: solid;
-    border-color: black;
+    border-color: var(--lightGray);
     border-radius: 25px 25px;
     max-width: 500px;
 }
@@ -100,11 +117,12 @@ nav a:hover {
 
 section {
     /* Add spacing between sections */
-    padding: 30px
+    padding: 15px
 }
 
 /* TODO Task 4: Form Styles */
 form {
+    background-color:var(--lightGray);
     display:inline-block;
     border-style: solid;
     border-color: var(--lightGray);
@@ -114,7 +132,9 @@ form {
 
 label {
     display:inline-block;
-    text-align: left;
+    text-align: right;
+    padding:10px;
+    margin:0;
 
     
 }
@@ -122,6 +142,7 @@ label {
 input,
 textarea {
     /* Style form inputs */
+    padding:10px;
 
 }
 
@@ -129,6 +150,7 @@ button,
 input[type="submit"] {
     /* Style the submit button */
     border-radius: 10px;
+    padding: 5px;
 
 }
 
