@@ -103,21 +103,27 @@ section {
 
 /* TODO Task 4: Form Styles */
 form {
-    
+    border-style: solid;
+    border-color: var(--lightGray);
+    border-radius: 20px;
+    padding: 10px;
 }
 
 label {
+    display: inline-block;
     
 }
 
 input,
 textarea {
     /* Style form inputs */
+
 }
 
 button,
 input[type="submit"] {
     /* Style the submit button */
+
 }
 
 button:hover,
