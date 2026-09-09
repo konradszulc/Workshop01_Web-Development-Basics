@@ -128,36 +128,49 @@ form {
     border-color: var(--lightGray);
     border-radius: 20px;
     padding: 10px;
+    max-width: 90%;
 }
 
 label {
     display:inline-block;
+    width: 95px;
+    max-width:100%;
     text-align: right;
     padding:10px;
     margin:0;
-
-    
 }
 
 input,
 textarea {
     /* Style form inputs */
+    border: 3px solid var(--blue);
+    border-radius: 10px;
     padding:10px;
+    margin: 10px;
+    width: 300px;
+    max-width: 90%;
 
+}
+
+/*seperate textarea styling to allign label better*/
+textarea{
+    vertical-align: middle;
 }
 
 button,
 input[type="submit"] {
     /* Style the submit button */
+    border-color: var(--blue);
     border-radius: 10px;
     padding: 5px;
 
 }
 
 button:hover,
-input[type="submit"]: hover {
+input[type="submit"]:hover {
     /* Add hover effect for button */
     color: red;
+    background-color: lightblue;
 }
 
 /*removed footer not doing optional*/
