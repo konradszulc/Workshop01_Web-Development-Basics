@@ -82,6 +82,7 @@ img {
     border-color: var(--lightGray);
     border-radius: 25px 25px;
     max-width: 500px;
+    height: auto;
 }
 
 /* TODO Task 3: Navigation Styles */
@@ -181,11 +182,60 @@ input[type="submit"]:hover {
 /* Tablet styles (optional) */
 @media (max-width: 768px) {
     /* Add your tablet/mobile styles here */
+    /*remove horizontal listing*/
+    nav li{
+        display: block;
+        margin: 0 15px;
+    }
     
+    h1{
+        font-size: 24px;
+    }
+    h2{
+        font-size:18px
+    }
+    h3{
+        font-size:18px;
+    }
+    h4{
+        font-size:18px
+    }
+    p{
+        font-size: 16px
+    }
+
+    img{
+        max-width:100%;
+    }
 }
 
 /* Mobile styles */
 @media (max-width:  480px) {
     /* Add your mobile-specific styles here */
+
+        nav li{
+        display: block;
+        margin: 0 10px;
+    }
+    
+    h1{
+        font-size: 22px;
+    }
+    h2{
+        font-size:16px
+    }
+    h3{
+        font-size:16px;
+    }
+    h4{
+        font-size:16px
+    }
+    p{
+        font-size: 14px
+    }
+
+    img{
+        max-width:100%;
+    }
     
 }
