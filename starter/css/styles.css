@@ -12,6 +12,9 @@
 /* Reset and Base Styles */
 * {
     /* Add your reset styles here (margin, padding, box-sizing) */
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
 
 }
 
@@ -23,6 +26,7 @@ body {
     /*Common use Margin*/
     margin: 0 auto;
     padding: 15px;
+    text-align:center;
 }
 
 /* TODO Task 2: Style your headings */
@@ -92,17 +96,16 @@ nav a:hover {
     color: red;
 }
 
-/* Main Content Styles */
-main {
-    
-}
+/*removed main as already styling body and individual elements*/
 
 section {
     /* Add spacing between sections */
+    padding: 30px
 }
 
 /* TODO Task 4: Form Styles */
 form {
+    display:inline-block;
     border-style: solid;
     border-color: var(--lightGray);
     border-radius: 20px;
@@ -110,7 +113,9 @@ form {
 }
 
 label {
-    display: inline-block;
+    display:inline-block;
+    text-align: left;
+
     
 }
 
@@ -123,18 +128,19 @@ textarea {
 button,
 input[type="submit"] {
     /* Style the submit button */
+    border-radius: 10px;
 
 }
 
 button:hover,
 input[type="submit"]: hover {
     /* Add hover effect for button */
+    color: red;
 }
 
+/*removed footer not doing optional*/
 /* Footer Styles */
-footer {
-    
-}
+
 
 /* TODO Task 5: Media Queries for Responsive Design */
 /* Tablet styles (optional) */
